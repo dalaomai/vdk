@@ -3,7 +3,7 @@ package fragment
 import (
 	"time"
 
-	"github.com/deepch/vdk/av"
+	"github.com/dalaomai/vdk/av"
 )
 
 type Fragment struct {

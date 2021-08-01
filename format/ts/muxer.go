@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/codec/aacparser"
-	"github.com/deepch/vdk/codec/h264parser"
-	"github.com/deepch/vdk/format/ts/tsio"
+	"github.com/dalaomai/vdk/av"
+	"github.com/dalaomai/vdk/codec/aacparser"
+	"github.com/dalaomai/vdk/codec/h264parser"
+	"github.com/dalaomai/vdk/format/ts/tsio"
 )
 
 var CodecTypes = []av.CodecType{av.H264, av.AAC}

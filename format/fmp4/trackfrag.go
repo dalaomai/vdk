@@ -3,10 +3,10 @@ package fmp4
 import (
 	"time"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/codec/h264parser"
-	"github.com/deepch/vdk/format/fmp4/fmp4io"
-	"github.com/deepch/vdk/format/fmp4/fragment"
+	"github.com/dalaomai/vdk/av"
+	"github.com/dalaomai/vdk/codec/h264parser"
+	"github.com/dalaomai/vdk/format/fmp4/fmp4io"
+	"github.com/dalaomai/vdk/format/fmp4/fragment"
 )
 
 // TrackFragmenter writes a single audio or video stream as a series of CMAF (fMP4) fragments
